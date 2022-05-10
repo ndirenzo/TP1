@@ -9,3 +9,5 @@
 
 # Problematicas de Debugging
 
+1. Una vez realizada la compilacion del archivo firmware_v3, al realizar el dubugging del archivo se debia seguir una serie de pasos para completarla. El primer problema fue que no se encontraba el archivo app.elf generado de la compilacion mencionada desde la funcion Search Proyect, como indicaban las instrucciones. La solucion a esto fue utilizar la funcion Browse y buscar en el archivo deseado.
+2. 
