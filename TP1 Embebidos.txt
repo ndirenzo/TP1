@@ -1,8 +1,0 @@
-Este es el repositorio del grupo G1 compuesto por:
-
-DIRENZO, NICOLAS
-PINTOS, GASTON MAXIMILIANO
-GONZALEZ, JOSE FRANCISCO
-PINTO, MARIANO DANIEL
-
-Fecha 10/5/2022
