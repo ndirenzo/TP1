@@ -1,12 +1,16 @@
-# TP1 - Sistemas Embebidos - Facultad de Ingeniería Universidad de Buenos Aires
-# Grupo 1 - N.Direnzo, G.Pintos, J.González, M.Pintos - 10 de Mayo 2022
+# TP1 - Sistemas Embebidos - Facultad de Ingeniería Universidad de Buenos Aires <br/> Grupo 1 - N.Direnzo, G.Pintos, J.González, M.Pintos - 10 de Mayo 2022
 
-## Compilar
-1. Clonar este repositorio
-2. En la carpeta, abrir la terminal y ejecutar $ make.
+## Ejemplo 1
+En este diagrama lo que se realiza es un encendido permanente del led número 3 (verde) de la placa EDU-CIAA.
 
-## Como usar
-- Visualizar usuarios: ./social_network --eliminate 0 --output single TEST_file.txt TEST_file2.txt
-- Aislar archivos de usuario: ./social_network --eliminate 0 --output multi TEST_file.txt
-- Eliminar usuario por id: ./social_network --eliminate 1000 --output single TEST_file.txt
-- Eliminar usuario por nombre: ./social_network --eliminate u: Mariano --output single TEST_file.txt
+## Ejemplo 2
+En este diagrama se le agrega parpadeo al LED 3. El mismo comienza la secuencia en estado apagado, trasncurrido 250ms se enciende, permanece encenido 500ms y se apaga nuevamente. Esta secuencia se repite indefiniamente. Tenemos entonces un periodo de 750ms y un Duty Cicle de 500ms/750ms=2/3
+
+## Ejemplo 3
+En este diagrama se le agrega un estado de reposo. El programa comienza en reposo y permanece allí durante 3 segundos, momento en el cuál ingresa en un ciclo de parpadeo que dura 5 segundos con el mismo periodo y Duty cicle que el anterior.
+
+## Ejemplo 4
+En este diagrama se comienza con el estado que indica el botón no oprimido. Cuando se omprime el botón por primera vez, el programa lo detecta y lo denomina en principio como "debounce", allí espera 100ms y realiza la validación. Si el botón continua siendo oprimido luego de este tiempo, se enciende el led 3, pero si no se encontraba opimido no se enciende y vuelve al estado no oprimido. Una vez encendido el led solo se apaga omprimiendo nuevamente el botón. Esto en la practica significa que si apretamos rapidamente el botón, el led no se encenderá. Para que se encienda la opresión debe ser prolongada durante el menos 100ms.
+
+## Ejemplo 5
+En este ultimo ejemplo se tiene por un lado el diagrama de la validación del botón del ejemplo 4_Buttons y por otro el ciclo realizado en el ejemplo 3_idleBlink. Esta manejado por un diagrama principial que verifica que los botones hayan sido oprimidos correctamente: Si se oprimio el botón 2 enciende el led 1, si se oprimio el botón 3 enciende el led 2, si se oprimio el botón 4 hace parpadear el led 3. Ahora, si se oprimio el botón 1, lo que hace es apagar los 3 leds.
