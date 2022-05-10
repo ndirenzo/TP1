@@ -1,6 +1,6 @@
 # TP1 - Sistemas Embebidos - Facultad de Ingeniería Universidad de Buenos Aires 10 de Mayo 2022
 
-## Integrantes Grupo 1 : N.Direnzo, G.Pintos, J.González, M.Pintos
+## Integrantes Grupo 1 : N.Direnzo, G.Pintos, J.González, M.Pinto
 
 ### Ejemplo 1
 En este diagrama lo que se realiza es un encendido permanente del led número 3 (verde) de la placa EDU-CIAA.
