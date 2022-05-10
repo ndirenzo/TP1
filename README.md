@@ -1,5 +1,5 @@
-# AdministradorUsuarios
-AdministradorUsuarios es un programa de lectura, escritura y búsqueda de información de usuarios contenida en archivos de configuración.txt implementado en ANSI-C89 y de modo consola.
+# TP1 - Sistemas Embebidos - Facultad de Ingeniería Universidad de Buenos Aires
+# Grupo 1 - N.Direnzo, G.Pintos, J.González, M.Pintos - 10 de Mayo 2022
 
 ## Compilar
 1. Clonar este repositorio
