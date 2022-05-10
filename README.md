@@ -5,6 +5,8 @@
 ### Ejemplo 1
 En este diagrama lo que se realiza es un encendido permanente del led número 3 (verde) de la placa EDU-CIAA.
 
+![alt text](https://github.com/ndirenzo/TP1/blob/main/Diagramas/Diagrama%20Ejemplo%201.PNG?raw=true)
+
 ### Ejemplo 2
 En este diagrama se le agrega parpadeo al LED 3. El mismo comienza la secuencia en estado apagado, trasncurrido 250ms se enciende, permanece encenido 500ms y se apaga nuevamente. Esta secuencia se repite indefiniamente. Tenemos entonces un periodo de 750ms y un Duty Cicle de 500ms/750ms=2/3
 
