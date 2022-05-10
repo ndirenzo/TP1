@@ -10,4 +10,4 @@
 # Problematicas de Debugging
 
 1. Una vez realizada la compilacion del archivo firmware_v3, al realizar el dubugging del archivo se debia seguir una serie de pasos para completarla. El primer problema fue que no se encontraba el archivo app.elf generado de la compilacion mencionada desde la funcion Search Proyect, como indicaban las instrucciones. La solucion a esto fue utilizar la funcion Browse y buscar en el archivo deseado.
-2. 
+2. En la pestaña Debugger de Debug Configuracions, en la sección Executable Path, ya venía escrito por Default ${openocd_path}$/openocd y las instrucciones decían de dejar ${OPENOCD_PATH}/openocd. Esto generó confunsión porque parecía que no había que hacer esa modificación.
