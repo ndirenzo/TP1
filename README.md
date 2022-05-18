@@ -35,7 +35,7 @@ El ejemplo que elegimos es el correspondiente al del integrante Mariano Pinto, c
 El diagrama de estados que diseñamos es el siguiente: 
 
 
-
+![alt text](https://github.com/ndirenzo/TP1/blob/main/Diagramas/Diagrama%20Ejemplo%20Grupo.jpeg)
 
 Se compone de tres maquinas de estado simples correspondientes a la red de media tensión, al grupo electrogeno y al seleccionador de modo automático/manual. 
 
