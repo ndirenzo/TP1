@@ -29,3 +29,35 @@ En este ultimo ejemplo se tiene por un lado el diagrama de la validación del bo
 ![alt text](https://github.com/ndirenzo/TP1/blob/main/Diagramas/Diagrama%20Ejemplo%205a.PNG?raw=true)
 
 ![alt text](https://github.com/ndirenzo/TP1/blob/main/Diagramas/Diagrama%20Ejemplo%205b.PNG?raw=true)
+
+### Ejemplo del grupo
+El ejemplo que elegimos es el correspondiente al del integrante Mariano Pinto, cuyo titulo de TP es "Automatizador de grupo electrogeno".
+El diagrama de estados que diseñamos es el siguiente: 
+
+
+
+
+Se compone de tres maquinas de estado simples correspondientes a la red de media tensión, al grupo electrogeno y al seleccionador de modo automático/manual. 
+
+Los eventos que componen a estas maquinas son:
+- Red: 
+1. RaiseSiRedOff
+2. RaiseSiRedOn
+- GE:
+1. SiAuto
+2. SiRedOff
+3. SiRedOn
+- MODO:
+1. RaiseSiAuto
+2. RaiseSiManual
+
+Los estados que componen a estas maquinas son:
+- Red: 
+1. ON
+2. OFF
+- GE: 
+1. ON
+2. OFF
+- MODO: 
+1. AUTO
+2. MANUAL
